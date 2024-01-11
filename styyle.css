@@ -1,0 +1,240 @@
+/* nav start */
+nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+  border: solid 1px black;
+}
+.black-side {
+  width: 10%;
+  background-color: black;
+}
+.logo {
+  width: 40%;
+  height: 100px;
+  object-fit: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.logo img {
+  width: 150px;
+  margin: 5% 5%;
+}
+.logo-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  display: flex;
+  width: 80%;
+  justify-content: end;
+  align-items: center;
+  gap: 5%;
+  margin-left: 32%;
+  background-color: transparent;
+}
+.nav-link a {
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  margin-right: 4%;
+  font-weight: 500;
+}
+.nav-link a:hover {
+  color: red;
+}
+a.active-link {
+  color: rgb(204, 73, 73);
+}
+/* nav end */
+/* presentation start */
+.presentation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  width: 958;
+  height: auto;
+  background-color: #2ecc71;
+  border-radius:0 5%;
+}
+.presentation-explain {
+  margin: 0 3%;
+}
+.presentation-title {
+  text-decoration: underline;
+}
+.presentation-explain p {
+  width: 60%;
+}
+.news {
+  width: 80%;
+  margin-top: 3%;
+}
+.news-1 {
+  display: flex;
+  background-color: white;
+  margin-bottom: 2%;
+  border-radius: 5% 0 0 5%;
+}
+.news-topic {
+  width: 25%;
+  height: 150px;
+  margin: 5%;
+  border-right: solid 2px grey;
+
+}
+.news-topic h1 {
+  margin-left: 25%;
+  margin-top: 25%;
+}
+.news-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  left: 0;
+}
+.news-content-info {
+  width: 35%;
+  height: 250px;
+  align-items: center;
+  margin-left: 2%;
+}
+.news-content-info p {
+  font-size: 17px;
+  color: grey;
+  margin: 2% 5%;
+}
+.news-content-image {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-right: 2%;
+}
+.image {
+  margin-top: 4%;
+  object-fit: cover;
+}
+.image img {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  right: 25%;
+  top: 7%;
+  z-index: 1;
+}
+.pinkBox {
+  width: 200px;
+  height: 350px;
+  background-color: #feaec9;
+  position: relative;
+}
+
+/* presentation end */
+/* footer start */
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: aliceblue;
+}
+.social-media {
+  width: 100%;
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.footer-title {
+  display: flex;
+  justify-content: center;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 40px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border: solid 1px black;
+  border-radius: 50%;
+  color: blue;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+.social-media #twitter-icon:hover {
+  background-color: aqua;
+  color: blue;
+}
+.social-media #facebook-icon:hover {
+  background-color: blue;
+  color: black;
+}
+.social-media #instagram-icon:hover {
+  background-color: pink;
+  color: black;
+}
+.social-media #github-icon:hover {
+  background-color: rgb(177, 174, 174);
+  color: black;
+}
+.social-media #youtube-icon:hover {
+  background-color: red;
+  color: black;
+}
+.shortpath{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px black;
+}
+.footer-logo{
+  width: 200px;
+  border-right: 2px solid black;
+  height: 100px;
+}
+.footer-website-name{
+  width: 300px;
+  border-right: 2px solid black;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footer-website-name a{
+  text-decoration: none;
+  color: black;
+}
+.contact{
+  width: 350px;
+  height: 100px;
+  display: flex;
+  gap: 20px ;
+}
+address{
+  background-color: antiquewhite;
+  font-size: 13px;
+  font-weight: 600;
+}
+.telif{
+  background-color: black;
+  color: grey;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.telif p{
+  margin-left:45% ;
+}
+.telif p span{
+  color: tomato;
+}
